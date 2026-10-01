@@ -1,0 +1,9 @@
+body{
+  background-color: white;
+}
+section{
+  width: 50%;
+  display: flex;
+  text-align: center;
+  
+}
