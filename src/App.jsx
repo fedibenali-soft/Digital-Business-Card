@@ -1,10 +1,13 @@
 import meImage from './assets/Me.jpeg'
 import './style/App.css'
+import code from './assets/code.png' 
 
 function App() {
   return (
     <main className="card-page">
+
       <article className="business-card">
+
         <section className="card-content">
           <div>
             <p className="eyebrow">Digital business card</p>
@@ -27,7 +30,8 @@ function App() {
             </p>
           </div>
 
-          <p className="card-footer">Turning ideas into digital experiences</p>
+          <p className="card-footer"><span><img src={code} alt="coding logo" className='codelogo'  /> </span>Turning ideas into digital experiences</p>
+           
         </section>
 
         <section className="photo-panel" aria-label="Portrait and social links">
@@ -42,7 +46,7 @@ function App() {
 
           <div className="social-links">
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/fedi.ben.ali.421543"
               target="_blank"
               rel="noreferrer"
               aria-label="Facebook"
@@ -53,7 +57,7 @@ function App() {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/fedi-ben-ali-0bb5b1440"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
